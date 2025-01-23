@@ -1,2 +1,0 @@
-# lorlikowski.github.io
-Homepage

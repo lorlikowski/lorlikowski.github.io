@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage of Łukasz Orlikowski</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            justify-content: left;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            padding: 20px;
+            max-width: 100%;
+			flex: 1;
+        }
+		img[src*='#left'] {
+			float: left;
+		}
+		img[src*='#right'] {
+			float: right;
+		}
+		img[src*='#center'] {
+			display: block;
+			margin: auto;
+		}
+        .section {
+            display: block;
+        }
+        .section.active {
+            display: block;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+			width: 100%;
+			bottom: 0;
+        }
+		.bio {
+            margin-bottom: 40px;
+        }
+        .publications h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .publication {
+            margin-bottom: 20px;
+        }
+        .publication-title {
+            font-weight: bold;
+        }
+        .publication-authors,
+        .publication-conference {
+            font-style: italic;
+        }
+        @media (max-width: 600px) {
+            header, .container, footer {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Łukasz Orlikowski</h1>
+    </header>
+    <nav>
+        <a href="/"> Home</a>
+        <a href="/papers.html">Papers</a>
+		<a href="/talks.html"> Talks </a>
+    </nav>
+    <div class="container">
+		<section class="section">
+        {{content}}
+		</section>
+    </div>
+    <footer>
+        <p>&copy; 
+			<span id="copyright">
+				<script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+			</span>
+		Łukasz Orlikowski</p>
+	</footer>
+</body>
+</html>

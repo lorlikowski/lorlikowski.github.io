@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h2>Talks</h2>
+{% for item in site.data.talks %}
+    <div class="publication">
+         <p class="publication-title">{{item.title}}</p>
+         <p class="publication-conference">{{item.conference}} 
+			 {% for link in item.links %}
+				[<a href="{{link.url}}"> {{link.type}}{% unless forloop.last %}, {% endunless %} </a>]
+			 {% endfor %}
+		 </p>
+    </div>
+{% endfor %}

@@ -1,0 +1,21 @@
+- title: "Languages of Unambiguous Vector Addition Systems with States"
+  conference: "HIGHLIGHTS 2024"
+  links:
+    - type: "slides"
+      url: "slides/highlights2024.pdf"
+    - type: "recording"
+      url: "https://plmbox.math.cnrs.fr/d/842a02badc75464b9cdd/files/?p=%2F4-Thursday%2FSession_9_Vector_Addition_Systems%2F4-Lukas_Orlikowski.mp4"
+
+- title: "New Lower Bounds for Reachability in Vector Addition Systems"
+  conference: "FSTTCS 2023"
+  links:
+    - type: "slides"
+      url: "slides/fsttcs2023.pdf"
+
+- title: "Reachability in Vector Addition Systems is Ackermann-complete"
+  conference: "FOCS 2021"
+  links:
+    - type: "slides"
+      url: "slides/focs2021.pdf"
+    - type: "recording"
+      url: "https://www.youtube.com/watch?v=Qf84x0sA7s8"

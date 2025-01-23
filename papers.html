@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h2>Publications</h2>
+{% for item in site.data.papers %}
+    <div class="publication">
+         <p class="publication-title">{{item.title}}</p>
+         <p class="publication-authors">
+            {{item.authors}}
+         </p>
+         <p class="publication-conference">{{item.conference}} [<a href="{{item.link}}"> {{item.link_text}} </a>]</p>
+    </div>
+{% endfor %}
