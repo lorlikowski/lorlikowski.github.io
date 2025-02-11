@@ -7,7 +7,7 @@ layout: default
          <p class="publication-title">{{item.title}}</p>
          <p class="publication-conference">{{item.conference}} 
 			 {% for link in item.links %}
-				[<a href="{{link.url}}"> {{link.type}}{% unless forloop.last %}, {% endunless %} </a>]
+				[<a href="{{link.url}}"> {{link.type}}</a>]
 			 {% endfor %}
 		 </p>
     </div>

@@ -1,27 +1,50 @@
 ---
 layout: default
 ---
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-	<h2>About me</h2>
+<div style="display: flex; align-items: flex-start; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px;">
+    <h2>About me</h2>
     <p>
       I am a PhD student at the Institute of Informatics, Faculty of Mathematics, Informatics, and Mechanics, University of Warsaw 
-	  under supervision of <a href="https://mimuw.edu.pl/~wczerwin/" style="text-decoration:none">Wojciech Czerwiński</a>.
-	  My research interests focus on theoretical computer science, with an emphasis on computational complexity and  Vector Addition Systems with States (VASS).
+      supervised by <a href="https://mimuw.edu.pl/~wczerwin/" style="text-decoration:none">Wojciech Czerwiński</a>.
+      My research interests focus on theoretical computer science, with an emphasis on computational complexity and Vector Addition Systems with States (VASS).
     </p>
-	<h2>Contact</h2>
-    <p>
-      Email: <b>l[dot]orlikowski[at]mimuw[dot]edu[dot]pl</b></br>
-	  Office: <b>Centre of New Technologies of University of Warsaw</b></br>  
-	  <b>ul. Stefana Banacha 2c, 02-097 Warsaw, room 03.108</b></br> 
-    </p>
-	<h2>Links</h2>
-	<ul>
-	  <li><a href="https://dblp.org/pid/291/4569.html">dblp</a></li>
-	  <li><a href="https://arxiv.org/search/cs?searchtype=author&query=Orlikowski,+%C5%81">arXiv</a></li>
-	</ul>
+    <h2>Contact</h2>
+    <table style="width: 100%">
+      <tr>
+        <td style="font-weight: bold;">Email:</td>
+        <td>l[dot]orlikowski[at]mimuw[dot]edu[dot]pl</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold;">Office:</td>
+        <td style="">Centre of New Technologies of University of Warsaw</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold;"></td>
+        <td>ul. Stefana Banacha 2c, 02-097 Warsaw, room 03.108</td>
+      </tr>
+    </table>
+    <h2>Links</h2>
+    <ul>
+      <li><a href="https://dblp.org/pid/291/4569.html">dblp</a></li>
+      <li><a href="https://arxiv.org/search/cs?searchtype=author&query=Orlikowski,+%C5%81">arXiv</a></li>
+	  <li><a href="https://scholar.google.com/citations?user=KMcx_RkAAAAJ&hl=en"> Google Scholar</a></li>
+	  <li><a href="https://orcid.org/0009-0001-4727-2068"> ORCID </a></li>
+    </ul>
   </div>
-  <div style="flex: 1; text-align: center;">
+  <div class="image-container" style="flex: 1; text-align: center; min-width: 300px;">
     <img src="./img/photo.jpg" alt="Łukasz Orlikowski" style="max-width: 50%; border-radius: 8px;">
   </div>
 </div>
+
+<style>
+  @media (max-width: 640px) {
+    .image-container {
+      order: 2; /* Moves the image below the text */
+      margin-top: 20px;
+    }
+    div[style*="min-width: 300px"] {
+      order: 1; /* Keeps the text on top */
+    }
+  }
+</style>
