@@ -1,3 +1,15 @@
+- title: "Languages of Boundedly-Ambiguous Vector Addition Systems with States"
+  authors: "Wojciech Czerwiński, Łukasz Orlikowski"
+  conference: "CONCUR 2025"
+  link: "https://arxiv.org/abs/2504.07669"
+  link_text: "arxiv"
+
+- title: "Reachability in 3-VASS Is Elementary"
+  authors: "Wojciech Czerwiński, Ismaël Jecker, Sławomir Lasota, Łukasz Orlikowski"
+  conference: "ICALP 2025"
+  link: "https://arxiv.org/abs/2502.13916"
+  link_text: "arxiv"
+  
 - title: "The Tractability Border of Reachability in Simple Vector Addition Systems with States"
   authors: "Dmitry Chistikov, Wojciech Czerwiński, Filip Mazowiecki, Łukasz Orlikowski, Henry Sinclair-Banks, Karol Węgrzycki"
   conference: "FOCS 2024"
@@ -27,3 +39,4 @@
   conference: "ICALP 2021"
   link: "https://drops.dagstuhl.de/opus/volltexte/2021/14197/pdf/LIPIcs-ICALP-2021-128.pdf"
   link_text: "conference version"
+
