@@ -11,11 +11,12 @@
       url: "slides/concur2025.pdf"
 
 - title: "Low-Dimensional VASS: Where Our Tools Fail Us"
-  conference: "SAMSA 2025"
-  conference_link: "https://samsa2025.github.io/"
+  conference: "SAMSA 2025" 
   links:
     - type: "slides"
       url: "slides/samsa2025.pdf"
+    - type: "Workshop website"
+      url: "https://samsa2025.github.io/"
 
 - title: "Languages of Unambiguous Vector Addition Systems with States"
   conference: "HIGHLIGHTS 2024"
@@ -38,4 +39,5 @@
       url: "slides/focs2021.pdf"
     - type: "recording"
       url: "https://www.youtube.com/watch?v=Qf84x0sA7s8"
+
 
