@@ -1,3 +1,15 @@
+- title: "Language Equivalence is Undecidable in VASS with Restricted Nondeterminism"
+  conference: "RP 2026"
+  links:
+    - type: "slides"
+      url: "slides/RP2026.pdf"
+
+- title: "Reachability in VASS Extended with Integer Counters"
+  conference: "LICS 2026"
+  links:
+    - type: "slides"
+      url: "slides/LICS2026.pdf"
+
 - title: "Reachability in 3-VASS is Elementary"
   conference: "HIGHLIGHTS 2025"
   links:
